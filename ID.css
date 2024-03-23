@@ -1,0 +1,29 @@
+body{
+    background-color: blanchedalmond;
+    margin: 0px;
+}
+
+img {
+    display: block;
+    margin-top: 200px;
+   
+    margin-left: auto;
+    margin-right: auto;
+  
+} 
+button {
+font-size: 40px;
+background: linear-gradient(aqua,white);
+border-radius: 20px;
+border: 3px outset black;
+position: absolute;
+left: 15px;
+top: 10px;
+transition: 0.5;
+}
+
+button:hover{
+    transform: scale(1.1);
+    border-radius: 10px;
+}
+

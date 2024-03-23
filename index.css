@@ -1,0 +1,27 @@
+body {
+    background-image: url(BGFORLANDING.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-rendering: auto;
+    margin: 0px;
+}
+
+.portall img{
+  position: absolute;
+  top: 250px;
+    left: 620px;
+    right: 570px;
+    transition: 1s;
+ 
+}
+
+.portall :hover {
+    transform: scale(1.2);
+    border-radius: 10px;
+}
+
+.shesh img{
+    position: absolute;
+    top: 100px;
+    left: 600px
+}

@@ -1,0 +1,1488 @@
+body {
+    background-image: url(BGCFOREN2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+
+.back button{
+    font-size: 80px;
+    background: linear-gradient(aqua,white);
+    border-radius: 20px;
+    border: 5px outset black;
+    position: absolute;
+    left: 30px;
+    top: 10px;
+    transition: 0.5; 
+}
+
+.back button:hover{
+ transform: scale(1.1);
+ border-radius: 10px;
+}
+
+.Talents {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    margin-top: 200px;
+}
+
+
+
+.SORA{
+    border: 5px outset lightblue;
+    box-shadow: 2px 2px 10px 3px black;
+    border-radius: 5px;
+    transition: 1s;
+    position: absolute;
+    left: 420px;
+    top: 280px;
+    z-index: 1;
+}
+ 
+.ROBOCO{
+    border: 5px outset brown;
+    box-shadow: 2px 2px 10px 3px black;
+    border-radius: 5px;
+    transition: 1s;
+    position: absolute;
+    left: 1220px;
+    top: 280px;
+    z-index: 1;
+  }
+ 
+.MIKO{
+    border: 5px outset pink;
+    box-shadow: 2px 2px 10px 3px black;
+    border-radius: 5px;
+    transition: 1s;
+    position: absolute;
+    left: 2030px;
+    top: 280px;
+    z-index: 1;
+  }
+ 
+.AZKI{
+    border: 5px outset lightslategray;
+    box-shadow: 2px 2px 10px 3px black;
+    border-radius: 5px;
+    transition: 1s;
+    position: absolute;
+    left: 820px;
+    top: 1180px;
+    z-index: 1;
+}
+ 
+.SUISEI{
+    border: 5px outset skyblue;
+    box-shadow: 2px 2px 10px 3px black;
+    border-radius: 5px;
+    transition: 1s;
+    position: absolute;
+    left: 1620px;
+    top: 1180px;
+    z-index: 1;
+}
+
+
+.SORA :hover {
+     transform: scale(1.2);
+     border-radius: 10px;
+}
+
+.ROBOCO :hover {
+     transform: scale(1.2);
+     border-radius: 10px;
+  }
+ 
+.MIKO :hover {
+     transform: scale(1.2);
+     border-radius: 10px;
+}
+
+ 
+.AZKI :hover {
+     transform: scale(1.2);
+     border-radius: 10px;
+}
+
+.SUISEI :hover {
+    transform: scale(1.2);
+    border-radius: 10px;
+}
+
+.Talents2 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    margin-top: 200px;
+}
+
+
+
+.FUBUKI{
+    border: 5px outset white;
+    box-shadow: 2px 2px 10px 3px black;
+    border-radius: 5px;
+    transition: 1s;
+    position: absolute;
+    left: 420px;
+    top: 2230px;
+    z-index: 1;
+}
+ 
+.MATSURI{
+    border: 5px outset burlywood;
+    box-shadow: 2px 2px 10px 3px black;
+    border-radius: 5px;
+    transition: 1s;
+    position: absolute;
+    left: 1220px;
+    top: 2230px;
+    z-index: 1;
+  }
+ 
+.AKI{
+    border: 5px outset yellow;
+    box-shadow: 2px 2px 10px 3px black;
+    border-radius: 5px;
+    transition: 1s;
+    position: absolute;
+    left: 2030px;
+    top: 2230px;
+    z-index: 1;
+  }
+ 
+.AKAI{
+    border: 5px outset red;
+    box-shadow: 2px 2px 10px 3px black;
+    border-radius: 5px;
+    transition: 1s;
+    position: absolute;
+    left: 1220px;
+    top: 3130px;
+    z-index: 1;
+}
+ 
+
+
+
+.FUBUKI :hover {
+     transform: scale(1.2);
+     border-radius: 10px;
+}
+
+.MATSURI :hover {
+     transform: scale(1.2);
+     border-radius: 10px;
+  }
+ 
+.AKI :hover {
+     transform: scale(1.2);
+     border-radius: 10px;
+}
+
+ 
+.AKAI :hover {
+     transform: scale(1.2);
+     border-radius: 10px;
+}
+
+
+.Talents3 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    margin-top: 200px;
+}
+
+
+
+.AQUA{
+    border: 5px outset gray;
+    box-shadow: 2px 2px 10px 3px black;
+    border-radius: 5px;
+    transition: 1s;
+    position: absolute;
+    left: 420px;
+    top: 4170px;
+    z-index: 1;
+}
+ 
+.SHION{
+    border: 5px outset silver;
+    box-shadow: 2px 2px 10px 3px black;
+    border-radius: 5px;
+    transition: 1s;
+    position: absolute;
+    left: 1220px;
+    top: 4170px;
+    z-index: 1;
+  }
+ 
+.AYAME{
+    border: 5px outset rgb(153, 14, 14);
+    box-shadow: 2px 2px 10px 3px black;
+    border-radius: 5px;
+    transition: 1s;
+    position: absolute;
+    left: 2030px;
+    top: 4170px;
+    z-index: 1;
+  }
+ 
+.CHOCO{
+    border: 5px outset bisque;
+    box-shadow: 2px 2px 10px 3px black;
+    border-radius: 5px;
+    transition: 1s;
+    position: absolute;
+    left: 820px;
+    top: 5120px;
+    z-index: 1;
+}
+ 
+.SUBARU{
+    border: 5px outset yellow;
+    box-shadow: 2px 2px 10px 3px black;
+    border-radius: 5px;
+    transition: 1s;
+    position: absolute;
+    left: 1620px;
+    top: 5120px;
+    z-index: 1;
+}
+
+
+.AQUA :hover {
+     transform: scale(1.2);
+     border-radius: 10px;
+}
+
+.SHION :hover {
+     transform: scale(1.2);
+     border-radius: 10px;
+  }
+ 
+.AYAME :hover {
+     transform: scale(1.2);
+     border-radius: 10px;
+}
+
+ 
+.CHOCO :hover {
+     transform: scale(1.2);
+     border-radius: 10px;
+}
+
+.SUBARU :hover {
+    transform: scale(1.2);
+    border-radius: 10px;
+}
+
+.Talents4 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    margin-top: 200px;
+}
+
+
+
+.FUBUKI2{
+    border: 5px outset white;
+    box-shadow: 2px 2px 10px 3px black;
+    border-radius: 5px;
+    transition: 1s;
+    position: absolute;
+    left: 420px;
+    top: 6230px;
+    z-index: 1;
+}
+ 
+.MIO{
+    border: 5px outset silver;
+    box-shadow: 2px 2px 10px 3px black;
+    border-radius: 5px;
+    transition: 1s;
+    position: absolute;
+    left: 1220px;
+    top: 6230px;
+    z-index: 1;
+  }
+ 
+.OKAYU{
+    border: 5px outset plum;
+    box-shadow: 2px 2px 10px 3px black;
+    border-radius: 5px;
+    transition: 1s;
+    position: absolute;
+    left: 2030px;
+    top: 6230px;
+    z-index: 1;
+  }
+ 
+.KORONE{
+    border: 5px outset brown;
+    box-shadow: 2px 2px 10px 3px black;
+    border-radius: 5px;
+    transition: 1s;
+    position: absolute;
+    left: 1220px;
+    top: 7130px;
+    z-index: 1;
+}
+ 
+
+
+
+.FUBUKI2 :hover {
+     transform: scale(1.2);
+     border-radius: 10px;
+}
+
+.MIO :hover {
+     transform: scale(1.2);
+     border-radius: 10px;
+  }
+ 
+.OKAYU :hover {
+     transform: scale(1.2);
+     border-radius: 10px;
+}
+
+ 
+.KORONE :hover {
+     transform: scale(1.2);
+     border-radius: 10px;
+}
+
+.Talents5 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    margin-top: 200px;
+}
+
+
+
+.PEKORA{
+    border: 5px outset aqua;
+    box-shadow: 2px 2px 10px 3px black;
+    border-radius: 5px;
+    transition: 1s;
+    position: absolute;
+    left: 420px;
+    top: 8230px;
+    z-index: 1;
+}
+ 
+.FLARE{
+    border: 5px outset burlywood;
+    box-shadow: 2px 2px 10px 3px black;
+    border-radius: 5px;
+    transition: 1s;
+    position: absolute;
+    left: 1220px;
+    top: 8230px;
+    z-index: 1;
+  }
+ 
+.NOEL{
+    border: 5px outset silver;
+    box-shadow: 2px 2px 10px 3px black;
+    border-radius: 5px;
+    transition: 1s;
+    position: absolute;
+    left: 2030px;
+    top: 8230px;
+    z-index: 1;
+  }
+ 
+.MARINE{
+    border: 5px outset red;
+    box-shadow: 2px 2px 10px 3px black;
+    border-radius: 5px;
+    transition: 1s;
+    position: absolute;
+    left: 1220px;
+    top: 9130px;
+    z-index: 1;
+}
+ 
+
+
+
+.PEKORA :hover {
+     transform: scale(1.2);
+     border-radius: 10px;
+}
+
+.FLARE :hover {
+     transform: scale(1.2);
+     border-radius: 10px;
+  }
+ 
+.NOEL :hover {
+     transform: scale(1.2);
+     border-radius: 10px;
+}
+
+ 
+.MARINE :hover {
+     transform: scale(1.2);
+     border-radius: 10px;
+}
+
+
+.info1 {
+    border: 5px outset gray ;
+    width: 600px;
+    height: 800px;
+    box-sizing: border-box;
+    background-image: url(BGFORGEN0-1.png);
+    background-position: center;
+
+    position: absolute;
+    left: 200px;
+    top: 250px;
+    z-index: -1;
+    
+
+
+}
+
+.word1 {
+    margin-top: 190px;
+}
+
+.word1 h2{
+    text-align: center;
+    font-size: 45px;
+}
+
+.word1 h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.word1 p{
+    border: 1px solid black;
+    background-color: lightblue;
+    border-radius: 10px;
+    
+  font-size: 30px;
+  text-decoration: solid;
+  margin-left: 0px;
+  margin-top: 0px;
+
+  z-index: 1;
+  
+}
+
+.info2 {
+    border: 5px outset gray ;
+    width: 600px;
+    height: 800px;
+    box-sizing: border-box;
+    background-image: url(BGFORGEN0-2.png);
+    background-position: center;
+
+    position: absolute;
+    left: 1000px;
+    top: 250px;
+    z-index: -1;
+    
+
+
+}
+
+.word2 {
+    margin-top: 190px;
+}
+
+.word2 h2{
+    text-align: center;
+    font-size: 45px;
+}
+
+.word2 h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.word2 p{
+    border: 1px solid black;
+    background-color: brown;
+    border-radius: 10px;
+  font-size: 30px;
+  text-decoration: solid;
+  margin-left: 0px;
+  margin-top: 0px;
+
+  z-index: 1;
+}
+
+.info3 {
+    border: 5px outset gray ;
+    width: 600px;
+    height: 800px;
+    box-sizing: border-box;
+    background-image: url(BGFORGEN0-3.png);
+    background-position: center;
+
+    position: absolute;
+    left: 1805px;
+    top: 250px;
+    z-index: -1;
+    
+
+
+}
+
+.word3 {
+    margin-top: 190px;
+}
+
+.word3 h2{
+    text-align: center;
+    font-size: 45px;
+}
+
+.word3 h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.word3 p{
+  border: 1px solid black;
+  background-color: lightpink;
+  border-radius: 10px;
+  font-size: 30px;
+  text-decoration: solid;
+  margin-left: 0px;
+  margin-top: 0px;
+
+  z-index: 1;
+}
+
+.info4 {
+    border: 5px outset gray ;
+    width: 600px;
+    height: 800px;
+    box-sizing: border-box;
+    background-image: url(BGFORGEN0-4.png);
+    background-position: center;
+
+    position: absolute;
+    left: 600px;
+    top: 1150px;
+    z-index: -1;
+    
+
+
+}
+
+.word4 {
+    margin-top: 190px;
+}
+
+.word4 h2{
+    text-align: center;
+    font-size: 45px;
+}
+
+.word4 h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.word4 p{
+
+  border: 1px solid black;
+  background-color: lightslategray;
+  border-radius: 10px;  
+  font-size: 30px;
+  text-decoration: solid;
+  margin-left: 0px;
+  margin-top: 0px;
+
+  z-index: 1;
+}
+
+.info5 {
+    border: 5px outset gray ;
+    width: 600px;
+    height: 800px;
+    box-sizing: border-box;
+    background-image: url(BGFORGEN0-5.png);
+    background-position: center;
+
+    position: absolute;
+    left: 1400px;
+    top: 1150px;
+    z-index: -1;
+    
+
+
+}
+
+.word5 {
+    margin-top: 190px;
+}
+
+.word5 h2{
+    text-align: center;
+    font-size: 45px;
+}
+
+.word5 h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.word5 p{
+  border: 1px solid black;
+  background-color: skyblue;
+  border-radius: 10px;
+  font-size: 30px;
+  text-decoration: solid;
+  margin-left: 0px;
+  margin-top: 0px;
+
+  z-index: 1;
+}
+
+.banner1 h1{
+    color: white;
+   background: linear-gradient(lightblue, brown, lightpink, lightslategray, skyblue);
+    margin-top: 130px;
+    font-size: 70px;
+   text-align: center;
+   border: 5px outset black;
+   box-shadow: 3px 3px black;
+   
+}
+
+.banner2 h1{
+    color: white;
+    background: linear-gradient(white, burlywood,yellow, red );
+     margin-top: 1800px;
+     font-size: 70px;
+    text-align: center;
+    border: 5px outset black;
+    box-shadow: 3px 3px black;
+    
+}
+
+.banner3 h1{
+    color: white;
+    background: linear-gradient(gray, silver, rgb(153, 14, 14) , bisque,yellow );
+     margin-top: 1870px;
+     font-size: 70px;
+    text-align: center;
+    border: 5px outset black;
+    box-shadow: 3px 3px black;
+    
+}
+
+.banner4 h1{
+    color: white;
+    background: linear-gradient(white, silver, plum, brown);
+     margin-top: 1950px;
+     font-size: 70px;
+    text-align: center;
+    border: 5px outset black;
+    box-shadow: 3px 3px black;
+    
+}
+
+.banner5 h1{
+    color: white;
+    background: linear-gradient(aqua, burlywood, silver, red );
+     margin-top: 1890px;
+     font-size: 70px;
+    text-align: center;
+    border: 5px outset black;
+    box-shadow: 3px 3px black;
+    
+}
+
+.info11 {
+    border: 5px outset gray ;
+    width: 600px;
+    height: 800px;
+    box-sizing: border-box;
+    background-image: url(BGFORGEN1-1.png);
+    background-position: center;
+
+    position: absolute;
+    left: 200px;
+    top: 2200px;
+    z-index: -1;
+    
+
+
+}
+
+.word11 {
+    margin-top: 190px;
+}
+
+.word11 h2{
+    text-align: center;
+    font-size: 45px;
+}
+
+.word11 h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.word11 p{
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+  font-size: 30px;
+  text-decoration: solid;
+  margin-left: 0px;
+  margin-top: 0px;
+
+  z-index: 1;
+}
+
+.info22 {
+    border: 5px outset gray ;
+    width: 600px;
+    height: 800px;
+    box-sizing: border-box;
+    background-image: url(BGFORGEN1-2.png);
+    background-size: cover;
+    background-position: center;
+
+    position: absolute;
+    left: 1000px;
+    top: 2200px;
+    z-index: -1;
+    
+
+
+}
+
+.word22 {
+    margin-top: 190px;
+}
+
+.word22 h2{
+    text-align: center;
+    font-size: 45px;
+}
+
+.word22 h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.word22 p{
+    border: 1px solid black;
+    background-color: burlywood;
+    border-radius: 10px;
+  font-size: 30px;
+  text-decoration: solid;
+  margin-left: 0px;
+  margin-top: 0px;
+
+  z-index: 1;
+}
+
+.info33 {
+    border: 5px outset gray ;
+    width: 600px;
+    height: 800px;
+    box-sizing: border-box;
+    background-image: url(BGFORGEN1-3.png);
+    background-position: center;
+    position: absolute;
+    left: 1805px;
+    top: 2200px;
+    z-index: -1;
+    
+
+
+}
+
+.word33 {
+    margin-top: 190px;
+}
+
+.word33 h2{
+    text-align: center;
+    font-size: 45px;
+}
+
+.word33 h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.word33 p{
+  border: 1px solid black;
+  background-color: yellow;
+  border-radius: 10px;
+  
+  font-size: 30px;
+  text-decoration: solid;
+  border-radius: 10px;
+  margin-left: 0px;
+  margin-top: 0px;
+
+  z-index: 1;
+}
+
+.info44 {
+    border: 5px outset gray ;
+    width: 600px;
+    height: 800px;
+    box-sizing: border-box;
+    background-image: url(BGFORGEN1-4.png);
+    background-size: cover;
+    background-position: center;
+
+    position: absolute;
+    left: 1000px;
+    top: 3100px;
+    z-index: -1;
+    
+
+
+}
+
+.word44 {
+    margin-top: 190px;
+}
+
+.word44 h2{
+    text-align: center;
+    font-size: 45px;
+}
+
+.word44 h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.word44 p{
+    border: 1px solid black;
+    background-color: red;
+    border-radius: 10px;
+  font-size: 30px;
+  text-decoration: solid;
+  margin-left: 0px;
+  margin-top: 0px;
+
+  z-index: 1;
+}
+
+
+
+.info111 {
+    border: 5px outset gray ;
+    width: 600px;
+    height: 800px;
+    box-sizing: border-box;
+    background-image: url(BGFORGEN2-1.png);
+    background-size: cover;
+    background-position: center;
+
+    position: absolute;
+    left: 200px;
+    top: 4150px;
+    z-index: -1;
+    
+
+
+}
+
+.word111 {
+    margin-top: 190px;
+}
+
+.word111 h2{
+    text-align: center;
+    font-size: 45px;
+}
+
+.word111 h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.word111 p{ 
+    border: 1px solid black;
+    background-color: gray;
+    border-radius: 10px;
+  font-size: 30px;
+  text-decoration: solid;
+  margin-left: 0px;
+  margin-top: 0px;
+
+  z-index: 1;
+}
+
+.info222 {
+    border: 5px outset gray ;
+    width: 600px;
+    height: 800px;
+    box-sizing: border-box;
+    background-image: url(BGFORGEN2-2.png);
+    background-size: cover;
+    background-position: center;
+
+    position: absolute;
+    left: 1000px;
+    top: 4150px;
+    z-index: -1;
+    
+
+
+}
+
+.word222 {
+    margin-top: 190px;
+}
+
+.word222 h2{
+    text-align: center;
+    font-size: 45px;
+}
+
+.word222 h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.word222 p{ 
+    border: 1px solid black;
+    background-color: silver;
+    border-radius: 10px;
+  font-size: 30px;
+  text-decoration: solid;
+  margin-left: 0px;
+  margin-top: 0px;
+
+  z-index: 1;
+}
+
+.info333 {
+    border: 5px outset gray ;
+    width: 600px;
+    height: 800px;
+    box-sizing: border-box;
+    background-image: url(BGFORGEN2-3.png);
+    background-size: cover;
+    background-position: center;
+
+    position: absolute;
+    left: 1805px;
+    top: 4150px;
+    z-index: -1;
+    
+
+
+}
+
+.word333 {
+    margin-top: 190px;
+}
+
+.word333 h2{
+    text-align: center;
+    font-size: 45px;
+}
+
+.word333 h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.word333 p{ 
+    border: 1px solid black;
+    background-color: rgb(153, 14, 14);
+    border-radius: 10px;
+  font-size: 30px;
+  text-decoration: solid;
+  margin-left: 0px;
+  margin-top: 0px;
+
+  z-index: 1;
+}
+
+.info444 {
+    border: 5px outset gray ;
+    width: 600px;
+    height: 800px;
+    box-sizing: border-box;
+    background-image: url(BGFORGEN2-4.png);
+    background-size: cover;
+    background-position: center;
+
+    position: absolute;
+    left: 600px;
+    top: 5100px;
+    z-index: -1;
+    
+
+
+}
+
+.word444 {
+    margin-top: 190px;
+}
+
+.word444 h2{
+    text-align: center;
+    font-size: 45px;
+}
+
+.word444 h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.word444 p{ 
+    border: 1px solid black;
+    background-color: bisque;
+    border-radius: 10px;
+  font-size: 30px;
+  text-decoration: solid;
+  margin-left: 0px;
+  margin-top: 0px;
+
+  z-index: 1;
+}
+
+.info555 {
+    border: 5px outset gray ;
+    width: 600px;
+    height: 800px;
+    box-sizing: border-box;
+    background-image: url(BGFORGEN2-5.png);
+    background-size: cover;
+    background-position: center;
+
+    position: absolute;
+    left: 1400px;
+    top: 5100px;
+    z-index: -1;
+    
+
+
+}
+
+.word555 {
+    margin-top: 190px;
+}
+
+.word555 h2{
+    text-align: center;
+    font-size: 45px;
+}
+
+.word555 h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.word555 p{ 
+    border: 1px solid black;
+    background-color: yellow;
+    border-radius: 10px;
+  font-size: 30px;
+  text-decoration: solid;
+  margin-left: 0px;
+  margin-top: 0px;
+
+  z-index: 1;
+}
+
+.info1111 {
+    border: 5px outset gray ;
+    width: 600px;
+    height: 800px;
+    box-sizing: border-box;
+    background-image: url(BGFORGEN1-1.png);
+    background-position: center;
+
+    position: absolute;
+    left: 200px;
+    top: 6200px;
+    z-index: -1;
+    
+
+
+}
+
+.word1111 {
+    margin-top: 190px;
+}
+
+.word1111 h2{
+    text-align: center;
+    font-size: 45px;
+}
+
+.word1111 h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.word1111 p{
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+  font-size: 30px;
+  text-decoration: solid;
+  margin-left: 0px;
+  margin-top: 0px;
+
+  z-index: 1;
+}
+
+.info2222 {
+    border: 5px outset gray ;
+    width: 600px;
+    height: 800px;
+    box-sizing: border-box;
+    background-image: url(BGFORGAMERS1.png);
+    background-size: cover;
+    background-position: center;
+
+    position: absolute;
+    left: 1000px;
+    top: 6200px;
+    z-index: -1;
+    
+
+
+}
+
+.word2222 {
+    margin-top: 190px;
+}
+
+.word2222 h2{
+    text-align: center;
+    font-size: 45px;
+}
+
+.word2222 h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.word2222 p{
+    border: 1px solid black;
+    background-color: silver;
+    border-radius: 10px;
+  font-size: 30px;
+  text-decoration: solid;
+  margin-left: 0px;
+  margin-top: 0px;
+
+  z-index: 1;
+}
+
+.info3333 {
+    border: 5px outset gray ;
+    width: 600px;
+    height: 800px;
+    box-sizing: border-box;
+    background-image: url(BGFORGAMERS2.png);
+    background-position: center;
+    position: absolute;
+    left: 1805px;
+    top: 6200px;
+    z-index: -1;
+    
+
+
+}
+
+.word3333 {
+    margin-top: 190px;
+}
+
+.word3333 h2{
+    text-align: center;
+    font-size: 45px;
+}
+
+.word3333 h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.word3333 p{
+  border: 1px solid black;
+  background-color: plum;
+  border-radius: 10px;
+  
+  font-size: 30px;
+  text-decoration: solid;
+  border-radius: 10px;
+  margin-left: 0px;
+  margin-top: 0px;
+
+  z-index: 1;
+}
+
+.info4444 {
+    border: 5px outset gray ;
+    width: 600px;
+    height: 800px;
+    box-sizing: border-box;
+    background-image: url(BGFORGAMERS3.png);
+    background-size: cover;
+    background-position: center;
+
+    position: absolute;
+    left: 1000px;
+    top: 7100px;
+    z-index: -1;
+    
+
+
+}
+
+.word4444 {
+    margin-top: 190px;
+}
+
+.word4444 h2{
+    text-align: center;
+    font-size: 45px;
+}
+
+.word4444 h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.word4444 p{
+    border: 1px solid black;
+    background-color: brown;
+    border-radius: 10px;
+  font-size: 30px;
+  text-decoration: solid;
+  margin-left: 0px;
+  margin-top: 0px;
+
+  z-index: 1;
+}
+
+.info11111 {
+    border: 5px outset gray ;
+    width: 600px;
+    height: 800px;
+    box-sizing: border-box;
+    background-image: url(BGFORGEN3-1.png);
+    background-position: center;
+
+    position: absolute;
+    left: 200px;
+    top: 8200px;
+    z-index: -1;
+    
+
+
+}
+
+.word11111 {
+    margin-top: 190px;
+}
+
+.word11111 h2{
+    text-align: center;
+    font-size: 45px;
+}
+
+.word11111 h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.word11111 p{
+    border: 1px solid black;
+    background-color: aqua;
+    border-radius: 10px;
+  font-size: 30px;
+  text-decoration: solid;
+  margin-left: 0px;
+  margin-top: 0px;
+
+  z-index: 1;
+}
+
+.info22222 {
+    border: 5px outset gray ;
+    width: 600px;
+    height: 800px;
+    box-sizing: border-box;
+    background-image: url(BGFORGEN3-2.png);
+    background-size: cover;
+    background-position: center;
+
+    position: absolute;
+    left: 1000px;
+    top: 8200px;
+    z-index: -1;
+    
+
+
+}
+
+.word22222 {
+    margin-top: 190px;
+}
+
+.word22222 h2{
+    text-align: center;
+    font-size: 45px;
+}
+
+.word22222 h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.word22222 p{
+    border: 1px solid black;
+    background-color: burlywood;
+    border-radius: 10px;
+  font-size: 30px;
+  text-decoration: solid;
+  margin-left: 0px;
+  margin-top: 0px;
+
+  z-index: 1;
+}
+
+.info33333 {
+    border: 5px outset gray ;
+    width: 600px;
+    height: 800px;
+    box-sizing: border-box;
+    background-image: url(BGFORGEN3-3.png);
+    background-position: center;
+    position: absolute;
+    left: 1805px;
+    top: 8200px;
+    z-index: -1;
+    
+
+
+}
+
+.word33333 {
+    margin-top: 190px;
+}
+
+.word33333 h2{
+    text-align: center;
+    font-size: 45px;
+}
+
+.word33333 h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.word33333 p{
+  border: 1px solid black;
+  background-color: silver;
+  border-radius: 10px;
+  
+  font-size: 30px;
+  text-decoration: solid;
+  border-radius: 10px;
+  margin-left: 0px;
+  margin-top: 0px;
+
+  z-index: 1;
+}
+
+.info44444 {
+    border: 5px outset gray ;
+    width: 600px;
+    height: 800px;
+    box-sizing: border-box;
+    background-image: url(BGFORGEN3-4.png);
+    background-size: cover;
+    background-position: center;
+
+    position: absolute;
+    left: 1000px;
+    top: 9100px;
+    z-index: -1;
+    
+
+
+}
+
+.word44444 {
+    margin-top: 190px;
+}
+
+.word44444 h2{
+    text-align: center;
+    font-size: 45px;
+}
+
+.word44444 h3 {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.word44444 p{
+    border: 1px solid black;
+    background-color: red;
+    border-radius: 10px;
+  font-size: 30px;
+  text-decoration: solid;
+  margin-left: 0px;
+  margin-top: 0px;
+ 
+
+  z-index: 1;
+}

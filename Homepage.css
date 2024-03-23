@@ -1,0 +1,498 @@
+body {
+    background-image: url(homepagehololivebgc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-rendering: auto;
+    margin: 0px;
+}
+
+.log img{
+    position: absolute;
+    top: 5px;
+    left: 0px;
+    transition: 0.5;
+
+}
+ 
+.log img:hover{
+       transform: scale(1.2);
+       border-radius: 10px;
+}
+
+.nav1 ul{
+    list-style-type: none;
+     background: linear-gradient( rgb(148, 226, 226), white );
+     border: 15px solid color(black);
+     padding: 0px;
+     padding-bottom: 10px;
+     margin-top: 0%;
+     height: 70px;
+     overflow: hidden;
+}
+.nav1 a{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-decoration: none;
+    margin-left: 80px;
+    margin-top: 15px;
+    border: 5px solid black;
+    border-width: 1px;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 2px 2px;
+    display: block;
+
+    background-image: linear-gradient(white, aqua,) ;
+}
+
+.nav1 a:hover{
+    background-color: rgb(151, 207, 207);
+}
+
+.nav1 li{
+    float: left;
+}
+
+.nav1 h1 {
+     border-right: 5px solid black;
+     font-size: x-large;
+     padding: 20px;
+     box-shadow: 2px 2px;
+     border-width: 1px;
+     height: 200px;
+     border-top: 10px;
+     margin-left: 100px;
+     margin-bottom: 80px;
+     margin-top: 0px;
+   }
+
+.Gens {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    
+}
+
+.Gens div{
+    height: 370px;
+    width: 335px;
+    margin: 50px;
+}
+
+.EN{
+   border: 5px outset aqua;
+   box-shadow: 2px 2px 10px 3px black;
+   border-radius: 5px;
+   transition: 1s;
+}
+
+.JP{
+    border: 5px outset aqua;
+    box-shadow: 2px 2px 10px 3px black;
+    border-radius: 5px;
+    transition: 1s;
+ }
+
+ .ID{
+    border: 5px outset aqua;
+    box-shadow: 2px 2px 10px 3px black;
+    border-radius: 5px;
+    transition: 1s;
+ }
+
+ .EN :hover {
+    transform: scale(1.2);
+    border-radius: 10px;
+ }
+
+ .JP :hover {
+    transform: scale(1.2);
+    border-radius: 10px;
+ }
+
+ .ID :hover {
+    transform: scale(1.2);
+    border-radius: 10px;
+ }
+
+ .button1 {
+    display: inline-block;
+    padding: 12px 16px;
+    background-color: violet;
+    color: #fff;
+    text-decoration: none;
+    margin: 0px 8px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-weight: 700;
+    
+}
+
+.button2 {
+    display: inline-block;
+    padding: 12px 16px;
+    background-color: violet;
+    color: #fff;
+    text-decoration: none;
+    margin: 0px 8px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-weight: 700;  
+}
+
+.popup {
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.4s;
+ 
+    position: fixed;
+    top: 30;
+    bottom: 30;
+    left: 30;
+    right: 30;
+    z-index: 99;
+   
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.popup-inner {
+    position: fixed;
+    bottom: 50px;
+    top: 50px;
+    background-color: #fff;
+    border: 5px outset aqua;
+    overflow-y: scroll;
+    padding: 50px;
+    padding-top: 0px ;
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    
+
+}
+
+.popup-inner h1{
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.popup-inner p{
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 32px 16px; 
+    text-align: left;
+  
+}
+
+.popup:target{
+    opacity: 1;
+    pointer-events: all;
+}
+
+
+.button3 {
+    display: inline-block;
+    padding: 12px 16px;
+    background-color: violet;
+    color: #fff;
+    text-decoration: none;
+    margin: 0px 8px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-weight: 700;
+    
+}
+
+.button4 {
+    display: inline-block;
+    padding: 12px 16px;
+    background-color: violet;
+    color: #fff;
+    text-decoration: none;
+    margin: 0px 8px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-weight: 700;  
+}
+
+.popups {
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.4s;
+ 
+    position: fixed;
+    top: 30;
+    bottom: 30;
+    left: 30;
+    right: 30;
+    z-index: 99;
+   
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.popup-inner2 {
+    position: fixed;
+    bottom: 50px;
+    top: 50px;
+    background-color: #fff;
+    border: 5px outset aqua;
+    overflow-y: scroll;
+    padding: 50px;
+    padding-top: 0px ;
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    
+
+}
+
+.popup-inner2 h1{
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.popup-inner2 p{
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 32px 16px; 
+    text-align: left;
+  
+}
+
+.popups:target{
+    opacity: 1;
+    pointer-events: all;
+}
+
+.button5 {
+    display: inline-block;
+    padding: 12px 16px;
+    background-color: violet;
+    color: #fff;
+    text-decoration: none;
+    margin: 0px 8px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-weight: 700;
+    
+}
+
+.button6 {
+    display: inline-block;
+    padding: 12px 16px;
+    background-color: violet;
+    color: #fff;
+    text-decoration: none;
+    margin: 0px 8px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-weight: 700;  
+}
+
+
+.button7 {
+    display: inline-block;
+    padding: 12px 16px;
+    background-color: violet;
+    color: #fff;
+    text-decoration: none;
+    margin: 0px 8px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-weight: 700;
+    
+}
+
+.button8 {
+    display: inline-block;
+    padding: 12px 16px;
+    background-color: violet;
+    color: #fff;
+    text-decoration: none;
+    margin: 0px 8px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-weight: 700;  
+}
+
+
+.popupss {
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.4s;
+ 
+    position: fixed;
+    top: 30;
+    bottom: 30;
+    left: 30;
+    right: 30;
+    z-index: 99;
+   
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.popup-inner3 {
+    position: fixed;
+    bottom: 50px;
+    top: 50px;
+    background-color: #fff;
+    border: 5px outset aqua;
+    overflow-y: scroll;
+    padding: 50px;
+    padding-top: 0px ;
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    
+
+}
+
+.popup-inner3 h1{
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.popup-inner3 p{
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 32px 16px; 
+    text-align: left;
+  
+}
+
+.popupss:target{
+    opacity: 1;
+    pointer-events: all;
+}
+
+
+.popupsss {
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.4s;
+ 
+    position: fixed;
+    top: 30;
+    bottom: 30;
+    left: 30;
+    right: 30;
+    z-index: 99;
+   
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.popup-inner4 {
+    position: fixed;
+    bottom: 50px;
+    top: 50px;
+    background-color: #fff;
+    border: 5px outset aqua;
+    overflow-y: scroll;
+    padding: 50px;
+    padding-top: 0px ;
+    padding-left: 10px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+    margin-bottom: 100px;
+    border-radius: 20px;
+    
+
+}
+
+.popup-inner4 h1{
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.popup-inner4 p{
+    color: #666;
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    padding: 32px 16px; 
+    text-align: left;
+  
+}
+
+.popupsss:target{
+    opacity: 1;
+    pointer-events: all;
+}
+
+.login11{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    align-items: center;
+    transform: translate(-50% -50%);
+    width: 400px;
+}
+.login11  h1 {
+    font-size: 40px;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+.login11 p {
+    font-size: 20px;
+    margin: 15px 0;
+}
+.login11 input {
+    font-size: 16px;
+    padding: 15px 10px;
+    margin-right: 50px;
+    width: 100%;
+    border: 3px solid black ;
+
+    border-radius: 10px;
+    outline: none;
+}
+.login11 button {
+    font-size:  18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
